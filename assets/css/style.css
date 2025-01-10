@@ -35,7 +35,7 @@ CSS TABLE OF CONTENTS
 :root {
   --inter: "Inter", sans-serif;
   --primary-color: #F99D1B;
-  --secondary-color: #0e0e0e;
+  --secondary-color: #113244;
   --sub-bg: #f5f5f5;
   --heading-color: #0e0e0e;
   --paragraph: #303030;
@@ -6872,3 +6872,4 @@ input {
       max-width: 1234px;
   }
 }
+
