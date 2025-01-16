@@ -97,7 +97,7 @@ CSS TABLE OF CONTENTS
 		$(window).on('scroll', function () {
 			var scrollPos = $(this).scrollTop();
 
-			if (scrollPos >= 100) {
+			if (scrollPos >= 150) {
 				// Hide openButton and show scroling-logo
 				$('#openButton').hide();
 				$('.scroling-logo').show();

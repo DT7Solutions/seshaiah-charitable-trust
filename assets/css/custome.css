@@ -1,5 +1,3 @@
-
-
 .our-programs .animal__item{
     border: 1px solid black;
 }
@@ -20,4 +18,8 @@
     -webkit-box-orient: vertical;
     overflow: hidden; 
     text-overflow: ellipsis;
+}
+
+.help-area__item .accordion .accordion-item h2 button {
+    font-size: 17px;
 }
