@@ -21,3 +21,6 @@
     overflow: hidden; 
     text-overflow: ellipsis;
 }
+.help-area__item .accordion .accordion-item h2 button {
+    font-size: 17px!important;
+}
