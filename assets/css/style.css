@@ -4317,8 +4317,8 @@ input {
   position: absolute;
   content: "";
   background-color: var(--black);
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
