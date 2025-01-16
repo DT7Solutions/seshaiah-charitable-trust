@@ -21,3 +21,6 @@
     overflow: hidden; 
     text-overflow: ellipsis;
 }
+.service-single__left-item p {
+    text-transform: none !important ;
+}
