@@ -13,9 +13,11 @@
     overflow: hidden; 
     text-overflow: ellipsis;
 }
+
 .service-single__left-item p {
     text-transform: none !important ;
 }
+
 .help-area__item .accordion .accordion-item h2 button {
     font-size: 17px!important;
 }
@@ -39,4 +41,9 @@
 }
 .about-two__image img {
     width: 80%;
+}
+
+.service-inner__content h3{
+    font-size: 20px;   
+        
 }

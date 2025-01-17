@@ -119,6 +119,7 @@ p {
   padding: 0;
   line-height: 28px;
   font-size: 16px;
+  text-align: justify;
 }
 
 span {
@@ -3162,7 +3163,7 @@ input {
   color: var(--primary-color);
 }
 .work__item p, .work-five__item p {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .work__item-arrow {
   font-size: 20px;
@@ -3370,8 +3371,8 @@ input {
   transition: var(--transition);
 }
 .service-inner__content {
-  padding: 30px;
-  margin-top: 40px;
+  padding: 10px 20px;
+  /* margin-top: 40px; */
 }
 .service-inner__item {
   padding: 0;
