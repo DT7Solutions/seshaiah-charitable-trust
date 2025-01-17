@@ -3371,7 +3371,7 @@ input {
 }
 .service-inner__content {
   padding: 30px;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 .service-inner__item {
   padding: 0;
