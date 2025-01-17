@@ -93,23 +93,9 @@ CSS TABLE OF CONTENTS
   // Mega menu area end here
   // Header area end here ***
 
-			if (scrollPos >= 150) {
-				// Hide openButton and show scroling-logo
-				$('#openButton').hide();
-				$('.scroling-logo').show();
-			} else {
-				// Show openButton and hide scroling-logo
-				$('#openButton').show();
-				$('.scroling-logo').hide();
-			}
-		});
-	// Scroll down area start here ***
-	$("#scrollDown").on("click", function () {
-		setTimeout(function () {
-			$("html, body").animate({ scrollTop: "+=1000px" }, "slow");
-		}, 1000);
-	});
-	// Scroll down area end here ***
+  // Track the scroll position
+  function toggleVisibilityBasedOnScroll() {
+    var scrollPos = $(window).scrollTop();
 
     if (scrollPos >= 150) {
       $("#openButton").hide();
