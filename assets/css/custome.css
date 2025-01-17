@@ -1,17 +1,9 @@
-
-
 .our-programs .animal__item{
     border: 1px solid black;
 }
 
 .work-five__item h3{
-    font-size: 22px;
-    /* display: -webkit-box; 
-    -webkit-line-clamp: 2; 
-    -webkit-box-orient: vertical;
-    overflow: hidden; 
-    text-overflow: ellipsis; */
-    
+    font-size: 22px;    
 }
 
 .work-five__item p{
@@ -23,4 +15,28 @@
 }
 .service-single__left-item p {
     text-transform: none !important ;
+}
+.help-area__item .accordion .accordion-item h2 button {
+    font-size: 17px!important;
+}
+.vision-mission .work-five__item p{
+    -webkit-line-clamp: 10;
+}
+
+.help-area__item .accordion .accordion-item h2 button {
+    font-size: 17px;
+}
+.vision-mission .work-five__item h3{
+    font-size: 22px;   
+    text-align: center; 
+}
+.vision-mission .work-five__item p {
+    text-align: justify;
+}
+.abt-img img {
+    width: 100%;
+    height: auto;
+}
+.about-two__image img {
+    width: 80%;
 }
