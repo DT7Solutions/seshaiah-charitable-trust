@@ -104,7 +104,7 @@ CSS TABLE OF CONTENTS
       $("#openButton").show();
       $(".scroling-logo").hide();
     }
-  
+  }
 
   $(document).ready(function () {
     toggleVisibilityBasedOnScroll(); // Run the function once when the page loads
