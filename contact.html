@@ -23,6 +23,17 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <!-- Style css -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "nLmhlO7Exi4VFGotj",
+            });
+        })();
+    </script>
+
 </head>
 
 <body>
@@ -266,23 +277,17 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="form-area">
-                            <form action="#0">
-                                <input type="text" placeholder="Name">
-                                <input type="email" placeholder="Email">
-                                <input type="Phone No" placeholder="Phone No">
-                                <!-- <select name="subject" id="subject">
-                                    <option value="0">Select Subject</option>
-                                    <option value="0">Account</option>
-                                    <option value="0">Service</option>
-                                    <option value="0">Pricing</option>
-                                    <option value="0">Support</option>
-                                </select> -->
-                                <textarea name="Your Review" id="massage" placeholder="Message..."></textarea>
-                                <!-- <div class="radio-btn mt-3">
-                                    <span></span>
-                                    <p>I accept your terms & conditions</p>
-                                </div> -->
-                                <button class="mt-40">Submit Now <i class="fa-solid fa-arrow-right-long"></i></button>
+                            <form class="ar-contact-form" id="ar-contact-form">
+                                <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required />
+                                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required />
+                                <textarea id="message" name="message" placeholder="Write your message" required></textarea>
+            
+                                <button class="btn mt-30" type="submit"> Submit Now <i class="fa-solid fa-arrow-right-long"></i></button>
+                            
+                                <div class="loading" style="display: none;">Loading...</div>
+                                <div class="message text-success sent-message" style="display: none;">Your message has been successfully sent.</div>
+                                <div class="message text-danger error-message" style="display: none;">Sorry, something went wrong.</div>
                             </form>
                         </div>
                     </div>
@@ -473,6 +478,7 @@
     <script src="assets/js/jquery.waypoints.js"></script>
     <!-- Script Js -->
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/validate.js"></script>
 </body>
 
 </html>
