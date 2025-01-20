@@ -65,7 +65,7 @@ body {
   background-color: var(--white);
   line-height: 28px;
   font-weight: 400;
-  text-transform: capitalize;
+  text-transform:none;
 }
 
 h1,
@@ -2017,11 +2017,12 @@ input {
 
 .header-wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
   transition: var(--transition);
   position: relative;
+  
 }
 .header-wrapper .logo-menu {
   max-width: 184px;
@@ -2039,7 +2040,7 @@ input {
   position: relative;
 }
 .header-wrapper .main-menu li:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 18px;
 }
 .header-wrapper .main-menu li a {
   color: var(--heading-color);
@@ -2047,7 +2048,7 @@ input {
   font-weight: 600;
   transition: var(--transition);
   text-transform: capitalize;
-  padding: 35px 0;
+  padding: 25px 0;
 }
 .header-wrapper .main-menu li a:hover {
   color: var(--primary-color);

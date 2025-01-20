@@ -17,6 +17,9 @@
 .service-single__left-item p {
     text-transform: none !important ;
 }
+.involve-two__item{
+    text-transform: none !important ;
+}
 
 .help-area__item .accordion .accordion-item h2 button {
     font-size: 17px!important;
@@ -44,17 +47,13 @@
 }
 
 .service-inner__content h3{
-    font-size: 20px;
+    font-size: 22px;  
+    min-height: 70px; 
+        
 }
-
-/* gallery style starts  */
-.gallery_text {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 36px;
+.footer__copyright p {
     text-align: center;
 }
-.gallery_text:hover{
-    color: #f99d1b;
+.footer__copyright {
+    padding: 4px !important;
 }
-/* gallery style ends  */
