@@ -47,7 +47,8 @@
 }
 
 .service-inner__content h3{
-    font-size: 20px;   
+    font-size: 22px;  
+    min-height: 70px; 
         
 }
 .footer__copyright p {
