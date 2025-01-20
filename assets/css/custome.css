@@ -44,6 +44,17 @@
 }
 
 .service-inner__content h3{
-    font-size: 20px;   
-        
+    font-size: 20px;
 }
+
+/* gallery style starts  */
+.gallery_text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+}
+.gallery_text:hover{
+    color: #f99d1b;
+}
+/* gallery style ends  */
