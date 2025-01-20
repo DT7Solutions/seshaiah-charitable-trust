@@ -17,6 +17,9 @@
 .service-single__left-item p {
     text-transform: none !important ;
 }
+.involve-two__item{
+    text-transform: none !important ;
+}
 
 .help-area__item .accordion .accordion-item h2 button {
     font-size: 17px!important;
