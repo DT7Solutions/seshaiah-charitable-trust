@@ -1,59 +1,101 @@
-.our-programs .animal__item{
-    border: 1px solid black;
+.our-programs .animal__item {
+  border: 1px solid black;
 }
 
-.work-five__item h3{
-    font-size: 22px;    
+.work-five__item h3 {
+  font-size: 22px;
 }
 
-.work-five__item p{
-    display: -webkit-box; 
-    -webkit-line-clamp: 4; 
-    -webkit-box-orient: vertical;
-    overflow: hidden; 
-    text-overflow: ellipsis;
+.work-five__item p {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .service-single__left-item p {
-    text-transform: none !important ;
+  text-transform: none !important ;
 }
-.involve-two__item{
-    text-transform: none !important ;
-}
-
-.help-area__item .accordion .accordion-item h2 button {
-    font-size: 17px!important;
-}
-.vision-mission .work-five__item p{
-    -webkit-line-clamp: 10;
+.involve-two__item {
+  text-transform: none !important ;
 }
 
 .help-area__item .accordion .accordion-item h2 button {
-    font-size: 17px;
-}
-.vision-mission .work-five__item h3{
-    font-size: 22px;   
-    text-align: center; 
+  font-size: 17px !important;
 }
 .vision-mission .work-five__item p {
-    text-align: justify;
-}
-.abt-img img {
-    width: 100%;
-    height: auto;
-}
-.about-two__image img {
-    width: 80%;
+  -webkit-line-clamp: 10;
 }
 
-.service-inner__content h3{
-    font-size: 22px;  
-    min-height: 70px; 
-        
+.help-area__item .accordion .accordion-item h2 button {
+  font-size: 17px;
+}
+.vision-mission .work-five__item h3 {
+  font-size: 22px;
+  text-align: center;
+}
+.vision-mission .work-five__item p {
+  text-align: justify;
+}
+.abt-img img {
+  width: 100%;
+  height: auto;
+}
+.about-two__image img {
+  width: 80%;
+}
+
+.service-inner__content h3 {
+  font-size: 22px;
+  min-height: 70px;
 }
 .footer__copyright p {
-    text-align: center;
+  text-align: center;
 }
 .footer__copyright {
-    padding: 4px !important;
+  padding: 4px !important;
+}
+
+/* Gallery Page */
+.gallery .img-popup {
+  position: relative;
+}
+.gallery .img-popup .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;    
+  text-align: center;
+  transition: var(--transition);
+  opacity: 0;
+}
+.gallery .img-popup::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: var(--transition);
+  opacity: 0;
+}
+.gallery .img-popup:hover .text,
+.gallery .img-popup:hover::after {
+  opacity: 1;
+}
+.gallery .image-container a img {
+  min-height: 450px;
+  object-fit: fill;
+  display: block;
+}
+.testimonial__item-content p {
+  font-size: 16px !important;
+  line-height: 25px;
 }
