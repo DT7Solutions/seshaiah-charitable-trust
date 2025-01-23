@@ -4374,7 +4374,7 @@ input {
   padding: 0;
 }
 .team-two__item .team__item-image {
-  max-width: 100%;
+  max-width: 80%;
 }
 .team-two__item::after {
   display: none;
