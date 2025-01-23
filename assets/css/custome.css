@@ -95,11 +95,42 @@
   object-fit: fill;
   display: block;
 }
+
+/* testimonials */
 .testimonial__item-content p {
   font-size: 16px !important;
   line-height: 25px;
 }
+
+/* Blogs Details Page */
 .blog-details{
   display: flex;
   justify-content: center;
+}
+.blog-read-more{
+  padding-top: 5%;
+  font-size:16px;
+}
+.blog-image{
+  border-radius: 8px;
+}
+.blog-two__item .blog-two__info {
+  bottom: -35px;
+  left: 15px;
+  padding: 15px 25px;
+}
+.blog-two__item .blog-two__info h4 {
+  padding-bottom: 5px;
+}
+.blog-page-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.blog-two .donation__item h3 {
+  margin: 8px 0;
+}
+.blog-two__item-arrow {
+  margin-top: 5%;
 }
