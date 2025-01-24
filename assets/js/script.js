@@ -526,6 +526,32 @@ CSS TABLE OF CONTENTS
   });
   // Testimonial slider area end here ***
 
+   // service-details slider area start here ***
+   var swiper = new Swiper(".image-slider", {
+    loop: "true",
+    spaceBetween: 30,
+    speed: 500,
+    grabCursor: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".testimonial__dot",
+      clickable: true,
+    },
+
+    breakpoints: {
+      991: {
+        slidesPerView: 2,
+      },
+      575: {
+        slidesPerView: 1,
+      },
+    },
+  });
+  // service-details slider area end here ***
+
   // Testimonial two slider area start here ***
   var swiper = new Swiper(".testimonial-two__slider", {
     loop: "true",
