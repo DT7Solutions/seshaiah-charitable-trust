@@ -2017,7 +2017,7 @@ input {
 
 .header-wrapper {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   transition: var(--transition);
@@ -5315,7 +5315,7 @@ input {
 }
 .contact .content {
   color: var(--white);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../assets/images/contact/01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../assets/images/contact/contact-img-sec.webp);
   padding: 40px 30px;
 }
 .contact .content h2 {
@@ -6215,7 +6215,7 @@ input {
   }
   .header-wrapper .main-menu li a {
     font-size: 16px;
-    padding: 20px 5px;
+    padding: 12px 5px;
   }
   .header-section {
     padding: 10px 0;
