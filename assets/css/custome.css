@@ -89,7 +89,7 @@
   opacity: 1;
 }
 .gallery .image-container a img {
-  min-height: 450px;
+  min-height: 270px;
   object-fit: fill;
   display: block;
 }
@@ -157,3 +157,6 @@
     text-align: start;
   }
 }
+
+
+
