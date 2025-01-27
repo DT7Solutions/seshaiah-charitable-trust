@@ -157,6 +157,14 @@
     text-align: start;
   }
 }
+/* news and events  */
+.news-events-details{
+  display: flex;
+  justify-content: center;
+}
+.news-events-details .img1 img{
+  border-radius: 8px;
+}
 
 
 
