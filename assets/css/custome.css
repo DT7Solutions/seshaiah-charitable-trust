@@ -133,3 +133,27 @@
   margin-top: 5%;
 }
 
+/* Blogs Details Pages */
+.blog-slingle .item {
+  padding: 0px!important;
+}
+.blog-slingle .blog-details .blog-title{
+  font-size: 34px;
+}
+.blog-slingle .recent-post {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.blog-slingle .recent-post .con {
+  padding-left: 2.5%;
+}
+.blog-slingle .recent-post .con1 {
+  text-align: end;
+  padding-right: 2.5%;
+}
+@media only screen and (max-width: 767px) {
+  .blog-slingle .recent-post .con1 {
+    text-align: start;
+  }
+}
