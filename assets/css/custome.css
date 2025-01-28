@@ -167,4 +167,37 @@
 }
 
 
+.header-five .header-section.menu-fixed {
+  background-color: white !important;
+}
+.menu-fixed .header-wrapper .main-menu li a {
+  color: black !important;
+}
+.menu-fixed .header-wrapper .main-menu .btn-one-white {
+  background-color: var(--primary-color) !important;
+  color: var(--white) !important;
+  border: 2px solid var(--primary-color);
+}
+.menu-fixed .header-wrapper .main-menu .btn-one-white span {
+  color: var(--white) !important;
+}
 
+
+.menu-fixed .header-wrapper .main-menu .btn-one-white:hover:before,
+.menu-fixed .header-wrapper .main-menu .btn-one-white:hover {
+  background-color: var(--white) !important;
+  color: var(--primary-color) !important;
+}
+.menu-fixed .header-wrapper .main-menu .btn-one-white:hover span {
+  color: var(--primary-color) !important;
+}
+/* .menu-fixed .header-wrapper .main-menu .btn-one-white {
+  background-color: var(--primary-color) !important;
+  color: #000 !important;
+  border: 2px solid #212529;
+}
+.menu-fixed .header-wrapper .main-menu .btn-one-white:hover {
+  background-color: white !important;
+  color: #000 !important;
+  border: 2px solid var(--primary-color) !important;
+} */
