@@ -201,3 +201,9 @@
   color: #000 !important;
   border: 2px solid var(--primary-color) !important;
 } */
+
+
+/* footer section */
+.footer__item-blog span {
+  margin-top: 0px;
+}
