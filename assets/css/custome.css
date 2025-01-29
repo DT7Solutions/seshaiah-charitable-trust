@@ -1,3 +1,8 @@
+/* header */
+.header-wrapper .main-menu li a {
+  padding: 25px 8px;
+}
+
 .our-programs .animal__item {
   border: 1px solid black;
 }
