@@ -218,7 +218,10 @@
   border: 2px solid var(--primary-color) !important;
 } */
 
-
+/* contact */
+.contact .contact-info1 li :hover {
+  color: #e68a00;
+}
 
 /* footer section */
 .footer__item-blog span {
