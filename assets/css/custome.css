@@ -213,3 +213,6 @@
 .footer__item-blog span {
   margin-top: 0px;
 }
+.service-image img {
+  border-radius: 8px;
+}
