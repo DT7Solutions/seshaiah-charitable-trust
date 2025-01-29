@@ -2,7 +2,15 @@
 .header-wrapper .main-menu li a {
   padding: 25px 8px;
 }
-
+.side_bar {
+  background-color: #fff6e3;
+}
+.side_bar .info li {
+  font-size: 14px;
+}
+.side_bar .info li :hover {
+  color: #e68a00;
+}
 .our-programs .animal__item {
   border: 1px solid black;
 }
@@ -58,6 +66,9 @@
 }
 .footer__copyright {
   padding: 4px !important;
+}
+.footer__copyright a:hover {
+  color: #000;
 }
 
 /* Gallery Page */
