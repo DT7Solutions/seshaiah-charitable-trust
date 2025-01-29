@@ -217,9 +217,18 @@
   border-radius: 8px;
 }
 @media (max-width: 768px) {
-   .header-wrapper .logo-menu .logo img {
+   /* .header-wrapper .logo-menu .logo img {
       content: url('../images/logo/mob-logo.png');
       width: 184px;
-      
+      background-color: #fff6e3;      
+  } */
+  .header-five .header-section {
+    background-color: #fff6e3;
+  }
+  .header-five .header-bar span {
+    background-color: var(--primary-color) !important;
+  }
+  .header-wrapper .logo-menu img {
+    max-width: 200px;
   }
 }
