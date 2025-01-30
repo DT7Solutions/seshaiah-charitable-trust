@@ -276,3 +276,7 @@
   font-weight: 600 !important;
   line-height: 19px !important;
 }
+.accordion-header {
+  line-height: 37px !important;
+
+}
