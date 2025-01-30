@@ -2,6 +2,9 @@
 .header-wrapper .main-menu li a {
   padding: 25px 8px;
 }
+.section-header h5 {
+  padding-bottom: 10px;
+}
 .side_bar {
   background-color: #fff6e3;
 }
@@ -17,6 +20,9 @@
 
 .work-five__item h3 {
   font-size: 22px;
+}
+.work-five__item{
+  border-radius: 6px;
 }
 
 .work-five__item p {
