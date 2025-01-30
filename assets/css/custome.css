@@ -121,16 +121,25 @@
   font-size: 16px !important;
   line-height: 25px;
 }
+.testimonial__item-head-info-con span {
+    margin-top: 0px;
+}
 
+.event-slider img{
+  border-radius: 6px;
+}
 /* Blogs Details Page */
 .blog-details{
   display: flex;
   justify-content: center;
 }
-.blog-read-more{
-  padding-top: 5%;
-  font-size:16px;
+.blog__slider .btn-one{
+  font-size: 16px;
 }
+.blog__slider .btn-one:hover {
+  background: var(--primary-color);
+}
+
 .blog-image{
   border-radius: 8px;
 }
@@ -188,6 +197,15 @@
   border-radius: 8px;
 }
 
+
+/* services section */
+.service-single__left-item h1{
+  font-size: 34px;
+}
+.service-details{
+  display: flex;
+  justify-content: center;
+}
 
 .header-five .header-section.menu-fixed {
   background-color: white !important;
