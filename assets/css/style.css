@@ -5284,7 +5284,7 @@ input {
 }
 
 .contact form input {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   transition: var(--transition);
 }
 .contact form input:focus {
