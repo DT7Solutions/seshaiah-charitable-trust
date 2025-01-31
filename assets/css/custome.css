@@ -280,3 +280,31 @@
   line-height: 37px !important;
 
 }
+/* background images for the  9 service sections  */
+.ms-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/service/medical-services-and-healthcare-facilities.png);
+}
+.wd-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/service/water-distribution-during-scarcity.png);
+}
+.sf-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/service/scholarships-and-financial-aid-for-students.png);
+}
+.tp-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/service/training-programs-for-skill-development.png);
+}
+.ei-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/service/essential-items-distribution.png);
+}
+.so-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/service/support-for-orphans.png);
+}
+.bd-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/service/blood-donation-camps.png);
+}
+.ru-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/service/rural-and-urban-development.png);
+}
+.tl-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/service/transforming-lives-affected-by-addiction.png);
+ }
