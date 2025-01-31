@@ -3921,6 +3921,7 @@ input {
 }
 .donation__item:hover .donation__item-arrow::before, .donation__item:hover .blog-two__item-arrow::before {
   opacity: 1;
+  display: none;
 }
 .donation .swiper-slide.swiper-slide-active .donation__item-arrow, .donation .swiper-slide.swiper-slide-active .blog-two__item-arrow {
   transform: translateX(95px);
@@ -5799,12 +5800,12 @@ input {
 }
 .event-single__list-text li {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 10px;
 }
 .event-single__list-text li span {
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 7px;
   border-radius: 50%;
   background-color: var(--span);
 }
