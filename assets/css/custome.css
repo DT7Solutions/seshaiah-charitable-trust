@@ -316,3 +316,18 @@
   border-top: 20px;
   
  }  */
+ /* @media (max-width: 768px) {
+  .banner-three__slider .swiper-wrapper .swiper-slide:nth-child(2) .slide-bg,
+  .banner-three__slider .swiper-wrapper .swiper-slide.swiper-slide-duplicate-active .slide-bg {
+    background-size: contain !important;
+  }
+ } */
+ @media (max-width: 768px) {
+  .banner-three__slider .swiper-wrapper .swiper-slide .bg-seshaiah {
+    background-position: 70% 70%;
+  }
+ }
+  
+
+
+  

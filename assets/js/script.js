@@ -130,7 +130,7 @@ CSS TABLE OF CONTENTS
     speed: 2000,
     effect: "fade",
     autoplay: {
-      delay: 5000,
+      delay: 500000,
       disableOnInteraction: false,
     },
     pagination: {
