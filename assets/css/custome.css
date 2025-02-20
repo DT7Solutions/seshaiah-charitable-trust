@@ -25,6 +25,9 @@
 .testimonial__item-head {
   padding: 15px 30px;
 }
+.testimonial__item.sub-bg {
+    background-color: var(--sub-bg);
+}
 .footer__item-blog img {
   max-width: 100px;
 }
@@ -64,6 +67,16 @@
   .blog__item-left-content p {
     margin-top: 10px;
     margin-bottom: 20px;
+  }
+  .help-area__item .accordion .accordion-item {
+    margin-bottom: 15px;
+  }
+  .help-area__item .accordion .accordion-item h2 button {
+    line-height: 26px;
+    padding: 10px 15px;
+  }
+  .help-area__item .accordion .accordion-item .accordion-body {
+    padding: 10px 15px;
   }
 }
 @media screen and (max-width: 575px) {
