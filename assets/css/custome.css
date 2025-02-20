@@ -246,26 +246,32 @@
 .blog__slider .btn-one:hover {
   background: var(--primary-color);
 }
-
 .blog-image{
   border-radius: 8px;
 }
 .blog-two__item .blog-two__info {
-  bottom: -35px;
+  bottom: -25px;
   left: 15px;
-  padding: 15px 25px;
+  padding: 10px 15px;
+}
+.blog-two .donation__item {
+  padding: 5%;
 }
 .blog-two__item .blog-two__info h4 {
-  padding-bottom: 5px;
-}
-.blog-page-desc {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  padding-bottom: 0px;
 }
 .blog-two .donation__item h3 {
   margin: 8px 0;
+  line-height: 30px;
+  min-height: 90px;
+}
+.blog-page-desc {
+  padding: 2.5% 0%;
+  line-height: 24px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .blog-two__item-arrow {
   margin-top: 5%;
