@@ -5156,7 +5156,7 @@ input {
 }
 .event-two__info ul li h5 {
   color: var(--primary-color);
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
 
 .filter__list {

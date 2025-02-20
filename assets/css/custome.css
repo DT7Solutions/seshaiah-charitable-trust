@@ -96,6 +96,13 @@
   .blog__slider .swiper-slide .row {
     flex-direction: column-reverse;
   }
+  .event-two__content {
+    padding: 15px;
+  }
+  .event-two__content h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
   .footer__copyright p {
     font-size: 14px;
   }
