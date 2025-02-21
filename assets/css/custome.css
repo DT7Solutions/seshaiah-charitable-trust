@@ -279,10 +279,12 @@
 
 /* Blogs Details Pages */
 .blog-slingle .item {
-  padding: 0px!important;
+  padding: 10px!important;
 }
 .blog-slingle .blog-details .blog-title{
   font-size: 34px;
+  line-height: 40px;
+  margin-top: 5px;
 }
 .blog-slingle .recent-post {
   padding: 10px;
@@ -379,9 +381,9 @@
   }
 }
 .gallery h5{
-  font-size: 40px !important;
+  font-size: 34px !important;
   font-weight: 700 !important;
-  line-height: 52px !important;
+  line-height: 40px !important;
 }
 .gallery h2{
   color: var(--primary-color) !important;
@@ -428,6 +430,47 @@
  @media (max-width: 991px) {
   .banner-three__slider .swiper-wrapper .swiper-slide .bg-seshaiah {
     background-position: 70% 70%;
+  }
+  .page-banner h2 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+  .event-two__content .time {
+    font-size: 14px;
+    justify-content: center;
+  }
+  .blog-slingle .blog_testimonial {
+    padding: 7.5%;
+  }
+  .blog-slingle .blog_testimonial p {
+    line-height: 1.1;
+  }
+  .blog-slingle .list_here {
+    text-align: justify;
+  }
+  .blog-slingle .tag-share {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .blog-slingle .tag-share .tag a {
+    font-size: 12px;
+  }
+  .contact .content {
+    padding: 2.5%;
+  }
+  .contact .content ul li {
+    margin-bottom: 15px;
+  }
+  .contact .content ul li a {
+    font-size: 14px;
+  }
+  .contact .content ul li a i {
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 5px;
   }
  }
   
