@@ -897,4 +897,53 @@ CSS TABLE OF CONTENTS
   // WOW Animatin area start here ***
   new WOW().init();
   // WOW Animatin area start here ***
+
+  // Blogs Share Post Logic
+  document.addEventListener('DOMContentLoaded', function () {
+    const currentPageUrl = window.location.href.replace(/#$/, '');
+    // Copy to clipboard
+    function copyLinkToClipboard() {
+        navigator.clipboard.writeText(currentPageUrl)
+            .then(() => {
+                alert("Link copied to clipboard!");
+            })
+            .catch(err => {
+                console.error("Failed to copy: ", err);
+                alert("Failed to copy the link.");
+            });
+    }
+    // Share on WhatsApp
+    function shareOnWhatsapp() {
+        const message = "Check out this page: " + currentPageUrl;
+        window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, '_blank');
+    }
+    // Share on Facebook
+    function shareOnFacebook() {
+        window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentPageUrl)}`, '_blank');
+    }
+    // Share on LinkedIn
+    function shareOnLinkedIn() {
+        window.open(`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(currentPageUrl)}`, '_blank');
+    }
+
+    // Bind the event listeners to the elements
+    const copyLinkBtn = document.getElementById('copyLink');
+    const whatsappLinkBtn = document.getElementById('whatsappLink');
+    const facebookLinkBtn = document.getElementById('facebookLink');
+    const linkedinLinkBtn = document.getElementById('linkedinLink');
+    // Add event listeners to trigger functions on click
+    if (copyLinkBtn) {
+        copyLinkBtn.addEventListener('click', copyLinkToClipboard);
+    }
+    if (whatsappLinkBtn) {
+        whatsappLinkBtn.addEventListener('click', shareOnWhatsapp);
+    }
+    if (facebookLinkBtn) {
+        facebookLinkBtn.addEventListener('click', shareOnFacebook);
+    }
+    if (linkedinLinkBtn) {
+        linkedinLinkBtn.addEventListener('click', shareOnLinkedIn);
+    }
+  });
+
 })(jQuery);
