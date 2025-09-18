@@ -41,7 +41,7 @@
             message: form.querySelector("textarea[name='message']").value,
         };
   
-        emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", params).then(
+        emailjs.send("service_b1fz5gl", "template_tekhfu5", params).then(
             function (response) {
                 console.log("Email sent successfully:", response);
                 form.reset();
